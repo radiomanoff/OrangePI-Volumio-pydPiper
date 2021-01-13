@@ -9,4 +9,4 @@ ExecStart=/usr/bin/docker run --network=host --privileged -v /var/log:/var/log:r
 # OLED display SSD1306 (128x64 pixel) with I2C interface on address 0x3C
 ExecStart=/usr/bin/docker run --network=host --privileged -v /var/log:/var/log:rw  dhrone/pydpiper:latest python /app/pydPiper.py --volumio --driver ssd1306_i2c  --width 128 --height 64 --i2caddress 0x3C --i2cport 0 --timezone 'Europe/Kiev' --temperature fahrenheit --pages pages_ssd1306.py
 
-Forum - https://community.volumio.org/t/volumio-2-on-orange-pi-boards/8353/181
+Forum and some photos - https://community.volumio.org/t/volumio-2-on-orange-pi-boards/8353/181
